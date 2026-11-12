@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HTTPS obligatorio y validación de certificados SIEMPRE activa.
+     Release: solo las CA del sistema.
+     Debug (android:debuggable=true): además las CA instaladas por el usuario en el teléfono,
+     para la CA local temporal de pruebas (RadioMovil-Prueba-CA.crt). No se desactiva TLS. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="RADIOMOVIL/RADIOMOVIL.csproj" />
+  <Project Path="RadioMovil.Domain/RadioMovil.Domain.csproj" />
+  <Project Path="RadioMovil.Application/RadioMovil.Application.csproj" />
+  <Project Path="RadioMovil.Infrastructure/RadioMovil.Infrastructure.csproj" />
+  <Project Path="RadioMovil.Workers/RadioMovil.Workers.csproj" />
+  <Project Path="RadioMovil.UnitTests/RadioMovil.UnitTests.csproj" />
+</Solution>

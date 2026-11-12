@@ -1,0 +1,55 @@
+# ===== Secretos y configuración local =====
+.env
+.env.*
+!.env.example
+*.local
+.neon
+*.pem
+*.key
+*.pfx
+*.p12
+*.keystore
+*.jks
+key.properties
+appsettings.*.local.json
+secrets.json
+
+# ===== .NET (backend) =====
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+*.rsuser
+*.userprefs
+[Dd]ebug/
+[Rr]elease/
+*.nupkg
+BenchmarkDotNet.Artifacts/
+
+# ===== Node / frontend =====
+node_modules/
+dist/
+dist-ssr/
+test-results/
+playwright-report/
+*.log
+npm-debug.log*
+
+# ===== Flutter (app conductor) =====
+.dart_tool/
+.flutter-plugins-dependencies
+build/
+local.properties
+
+# ===== IDEs y sistema =====
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+.DS_Store
+Thumbs.db
+
+# ===== Herramientas locales de agentes =====
+.claude/settings.local.json

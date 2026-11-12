@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-06T00:00:00Z",
+  "title": "Design System: RadioMovil",
+  "extensions": {
+    "colorMeta": {
+      "surface": { "role": "neutral", "displayName": "Blanco de trabajo", "tonalRamp": ["oklch(15% 0 0)", "oklch(26% 0 0)", "oklch(38% 0 0)", "oklch(49% 0 0)", "oklch(61% 0 0)", "oklch(72% 0 0)", "oklch(84% 0 0)", "oklch(95% 0 0)"] },
+      "canvas": { "role": "neutral", "displayName": "Gris frío de fondo", "tonalRamp": ["oklch(15% .003 250)", "oklch(26% .008 250)", "oklch(38% .01 250)", "oklch(49% .012 250)", "oklch(61% .012 250)", "oklch(72% .01 250)", "oklch(84% .008 250)", "oklch(95% .003 250)"] },
+      "ink": { "role": "neutral", "displayName": "Tinta de contenido", "tonalRamp": ["oklch(15% .01 255)", "oklch(26% .025 255)", "oklch(38% .035 255)", "oklch(49% .04 255)", "oklch(61% .04 255)", "oklch(72% .035 255)", "oklch(84% .02 255)", "oklch(95% .005 255)"] },
+      "muted": { "role": "neutral", "displayName": "Gris de apoyo", "tonalRamp": ["oklch(15% .01 255)", "oklch(26% .02 255)", "oklch(38% .03 255)", "oklch(49% .035 255)", "oklch(61% .035 255)", "oklch(72% .03 255)", "oklch(84% .02 255)", "oklch(95% .005 255)"] },
+      "action": { "role": "primary", "displayName": "Azul de acción", "tonalRamp": ["oklch(15% .03 258)", "oklch(26% .07 258)", "oklch(38% .12 258)", "oklch(49% .15 258)", "oklch(61% .15 258)", "oklch(72% .12 258)", "oklch(84% .07 258)", "oklch(95% .02 258)"] },
+      "action-hover": { "role": "primary", "displayName": "Azul de respuesta", "tonalRamp": ["oklch(15% .025 258)", "oklch(26% .06 258)", "oklch(38% .1 258)", "oklch(49% .13 258)", "oklch(61% .13 258)", "oklch(72% .1 258)", "oklch(84% .06 258)", "oklch(95% .015 258)"] },
+      "intro": { "role": "primary", "displayName": "Marino de bienvenida", "tonalRamp": ["oklch(15% .02 245)", "oklch(26% .04 245)", "oklch(38% .06 245)", "oklch(49% .08 245)", "oklch(61% .08 245)", "oklch(72% .06 245)", "oklch(84% .04 245)", "oklch(95% .01 245)"] },
+      "brand": { "role": "primary", "displayName": "Marino de marca", "tonalRamp": ["oklch(15% .02 254)", "oklch(26% .04 254)", "oklch(38% .07 254)", "oklch(49% .09 254)", "oklch(61% .09 254)", "oklch(72% .07 254)", "oklch(84% .04 254)", "oklch(95% .01 254)"] },
+      "control-border": { "role": "neutral", "displayName": "Borde de campo", "tonalRamp": ["oklch(15% .008 255)", "oklch(26% .018 255)", "oklch(38% .025 255)", "oklch(49% .03 255)", "oklch(61% .03 255)", "oklch(72% .025 255)", "oklch(84% .018 255)", "oklch(95% .005 255)"] },
+      "divider": { "role": "neutral", "displayName": "Divisor tenue", "tonalRamp": ["oklch(15% .004 255)", "oklch(26% .008 255)", "oklch(38% .012 255)", "oklch(49% .016 255)", "oklch(61% .016 255)", "oklch(72% .012 255)", "oklch(84% .008 255)", "oklch(95% .004 255)"] },
+      "danger": { "displayName": "Rojo de validación", "tonalRamp": ["oklch(15% .025 25)", "oklch(26% .07 25)", "oklch(38% .12 25)", "oklch(49% .16 25)", "oklch(61% .16 25)", "oklch(72% .12 25)", "oklch(84% .07 25)", "oklch(95% .02 25)"] },
+      "notice-bg": { "role": "neutral", "displayName": "Fondo informativo", "tonalRamp": ["oklch(15% .005 255)", "oklch(26% .012 255)", "oklch(38% .018 255)", "oklch(49% .022 255)", "oklch(61% .022 255)", "oklch(72% .018 255)", "oklch(84% .012 255)", "oklch(95% .005 255)"] },
+      "notice-ink": { "role": "neutral", "displayName": "Tinta informativa", "tonalRamp": ["oklch(15% .01 252)", "oklch(26% .025 252)", "oklch(38% .04 252)", "oklch(49% .05 252)", "oklch(61% .05 252)", "oklch(72% .04 252)", "oklch(84% .025 252)", "oklch(95% .008 252)"] },
+      "error-bg": { "displayName": "Fondo de error", "tonalRamp": ["oklch(15% .008 25)", "oklch(26% .02 25)", "oklch(38% .035 25)", "oklch(49% .045 25)", "oklch(61% .045 25)", "oklch(72% .035 25)", "oklch(84% .02 25)", "oklch(95% .008 25)"] },
+      "error-ink": { "displayName": "Tinta de error", "tonalRamp": ["oklch(15% .02 25)", "oklch(26% .06 25)", "oklch(38% .1 25)", "oklch(49% .14 25)", "oklch(61% .14 25)", "oklch(72% .1 25)", "oklch(84% .06 25)", "oklch(95% .015 25)"] },
+      "disabled-bg": { "role": "neutral", "displayName": "Fondo deshabilitado", "tonalRamp": ["oklch(15% .005 255)", "oklch(26% .01 255)", "oklch(38% .015 255)", "oklch(49% .02 255)", "oklch(61% .02 255)", "oklch(72% .015 255)", "oklch(84% .01 255)", "oklch(95% .005 255)"] },
+      "subtle-hover": { "role": "neutral", "displayName": "Respuesta tenue", "tonalRamp": ["oklch(15% .005 253)", "oklch(26% .015 253)", "oklch(38% .025 253)", "oklch(49% .03 253)", "oklch(61% .03 253)", "oklch(72% .025 253)", "oklch(84% .015 253)", "oklch(95% .005 253)"] },
+      "focus": { "role": "primary", "displayName": "Azul de foco", "tonalRamp": ["oklch(15% .03 256)", "oklch(26% .07 256)", "oklch(38% .12 256)", "oklch(49% .16 256)", "oklch(61% .16 256)", "oklch(72% .12 256)", "oklch(84% .07 256)", "oklch(95% .02 256)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Bienvenida", "purpose": "Titular de introducción; 38 px a ≤1000 px y 28 px/1.2 a ≤700 px." },
+      "title": { "displayName": "Título de formulario", "purpose": "26 px a ≤700 px." },
+      "body": { "displayName": "Texto de interfaz", "purpose": "Tamaño del navegador; sin fuente remota." }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [{ "name": "tablet-max", "value": "1000px" }, { "name": "mobile-max", "value": "700px" }]
+  },
+  "components": [
+    {
+      "name": "Acción principal", "kind": "button", "refersTo": "button-primary",
+      "description": "Entrada empresarial; muestra habilitada, no prueba de login.",
+      "html": "<button class=\"ds-primary\" type=\"button\">Entrar a RadioMovil<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-primary{width:100%;min-height:50px;border-radius:var(--radius-control,6px);padding:13px 18px;font:600 15px var(--font-interface,'Segoe UI',system-ui,sans-serif);display:flex;align-items:center;justify-content:center;gap:16px;background:var(--color-action,#184f9d);border:1px solid var(--color-action,#184f9d);color:var(--color-surface,#fff);cursor:pointer}.ds-primary svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;flex-shrink:0}.ds-primary:hover:not(:disabled){background:var(--color-action-hover,#123c77)}.ds-primary:focus-visible{outline:3px solid #2971cb;outline-offset:4px}.ds-primary:disabled{background:#e6ebf1;border-color:#e6ebf1;color:var(--color-muted,#526071);cursor:not-allowed}"
+    },
+    {
+      "name": "Acción secundaria", "kind": "button", "refersTo": "button-secondary",
+      "description": "Comprobar sesión y acciones de estado.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Comprobar sesión</button>",
+      "css": ".ds-secondary{width:100%;min-height:50px;border-radius:var(--radius-control,6px);padding:13px 18px;font:600 15px var(--font-interface,'Segoe UI',system-ui,sans-serif);display:flex;align-items:center;justify-content:center;color:var(--color-action,#184f9d);background:var(--color-surface,#fff);border:1px solid #8a98a9;cursor:pointer}.ds-secondary:hover:not(:disabled){background:#edf3fa}.ds-secondary:focus-visible{outline:3px solid #2971cb;outline-offset:4px}.ds-secondary:disabled{cursor:not-allowed}"
+    },
+    {
+      "name": "Mostrar contraseña", "kind": "button", "refersTo": "password-toggle",
+      "description": "Control dentro del campo en la aplicación; muestra visual sin lógica React.",
+      "html": "<button class=\"ds-toggle\" type=\"button\" aria-label=\"Mostrar contraseña\" aria-pressed=\"false\">Mostrar</button>",
+      "css": ".ds-toggle{min-height:44px;padding:0 12px;border:0;background:transparent;color:var(--color-action,#184f9d);font:600 13px var(--font-interface,'Segoe UI',system-ui,sans-serif);border-radius:4px;cursor:pointer}.ds-toggle:hover{background:#edf3fa}.ds-toggle:focus-visible{outline:3px solid #2971cb;outline-offset:4px}.ds-toggle:disabled{cursor:not-allowed}"
+    },
+    {
+      "name": "Campo de correo", "kind": "input", "refersTo": "input",
+      "description": "Etiqueta persistente, borde visible y validación textual asociada en la aplicación.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-email\">Correo electrónico</label><input id=\"ds-email\" type=\"email\" autocomplete=\"username\" placeholder=\"nombre@tuempresa.com\" /></div>",
+      "css": ".ds-field{font-family:var(--font-interface,'Segoe UI',system-ui,sans-serif);color:var(--color-ink,#17212f);margin-bottom:22px}.ds-field label{display:block;font-size:14px;font-weight:600;margin-bottom:9px}.ds-field input{width:100%;min-width:0;height:50px;padding:12px 14px;font:inherit;color:var(--color-ink,#17212f);border:1px solid #8a98a9;border-radius:var(--radius-control,6px);background:var(--color-surface,#fff);caret-color:var(--color-action,#184f9d)}.ds-field input::placeholder{color:#647184}.ds-field input:hover{border-color:var(--color-muted,#526071)}.ds-field input:focus-visible{outline:3px solid #2971cb;outline-offset:4px}.ds-field input[aria-invalid=true]{border-color:var(--color-danger,#a52424)}.ds-field input:disabled{background:var(--color-canvas,#f4f6f8)}"
+    },
+    {
+      "name": "Aviso informativo", "kind": "custom", "refersTo": "notice",
+      "description": "Configuración pendiente o confirmación informativa; no indica fallo.",
+      "html": "<div class=\"ds-notice\" role=\"status\"><strong>Configuración pendiente</strong><p>El acceso de esta instalación aún no está habilitado. Contacta con tu administrador para configurar la empresa y la conexión.</p></div>",
+      "css": ".ds-notice{padding:14px 16px;background:#f1f5fa;color:#34485e;border-radius:var(--radius-control,6px);font:13px/1.6 var(--font-interface,'Segoe UI',system-ui,sans-serif);margin-bottom:24px;overflow-wrap:anywhere}.ds-notice strong{display:block;font-weight:650;margin-bottom:4px}.ds-notice p{margin:0}"
+    },
+    {
+      "name": "Aviso de error", "kind": "custom", "refersTo": "notice-error",
+      "description": "Tratamiento de fallos; no utilizar para el cierre correcto de sesión. Texto ilustrativo.",
+      "html": "<div class=\"ds-error\" role=\"alert\"><p>No se pudo completar la solicitud.</p></div>",
+      "css": ".ds-error{padding:14px 16px;background:#fff0ef;color:#922222;border-radius:var(--radius-control,6px);font:13px/1.6 var(--font-interface,'Segoe UI',system-ui,sans-serif);margin-bottom:24px;overflow-wrap:anywhere}.ds-error p{margin:0}"
+    },
+    {
+      "name": "Marca enlazada", "kind": "nav",
+      "description": "Enlace de marca de cabecera; no representa una navegación administrativa.",
+      "html": "<a class=\"ds-brand\" href=\"/login\" aria-label=\"RadioMovil, inicio\"><svg viewBox=\"0 0 32 32\" aria-hidden=\"true\"><rect x=\"2\" y=\"2\" width=\"28\" height=\"28\" rx=\"7\" fill=\"currentColor\"/><path d=\"M10 23V9h7a4 4 0 0 1 0 8h-7m7 0 5 6\" fill=\"none\" stroke=\"white\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/></svg><span>Radio<span class=\"ds-brand-light\">Movil</span></span></a>",
+      "css": ".ds-brand{display:inline-flex;align-items:center;gap:10px;font:750 24px var(--font-interface,'Segoe UI',system-ui,sans-serif);letter-spacing:-.7px;text-decoration:none;color:#13355a}.ds-brand-light{font-weight:450}.ds-brand svg{width:36px;height:36px;flex-shrink:0}.ds-brand:focus-visible{outline:3px solid #2971cb;outline-offset:4px}@media(max-width:700px){.ds-brand{font-size:22px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Acceso empresarial sobrio",
+    "overview": "Dirección aprobada: legibilidad, precisión y una tarea principal clara. La identidad se apoya en azul marino, blanco de trabajo y tipografía de interfaz; el carácter proviene de la composición y del monograma geométrico, sin decoración excesiva.",
+    "keyCharacteristics": ["Composición plana y contraste entre bienvenida y trabajo.", "Controles legibles, etiquetas persistentes y foco visible.", "Marca tipográfica e iconos SVG geométricos, sin recursos raster de interfaz."],
+    "rules": [{ "name": "The Estado explícito Rule.", "body": "Cada estado se comunica con texto y semántica; cerrar sesión correctamente es información, no error.", "section": "colors" }],
+    "dos": ["**Do** Mantener la dirección sobria, la jerarquía tipográfica y el espacio de trabajo blanco.", "**Do** Conservar etiquetas, foco visible, estados textuales y acciones utilizables en móvil.", "**Do** Separar evidencia offline de autenticación real y confirmar datos operativos con el backend."],
+    "donts": ["**Don't** Añadir sombras, gradientes, raster o animación decorativa a esta dirección aprobada.", "**Don't** Presentar el cierre de sesión correcto como error.", "**Don't** Convertir planes de navegación o métricas simuladas en componentes ya implementados."]
+  }
+}

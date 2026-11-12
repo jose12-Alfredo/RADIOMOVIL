@@ -1,0 +1,27 @@
+/* Tokens semánticos: `static` garantiza las variables aunque ninguna utilidad las use. */
+@theme static {
+  --color-surface: #ffffff;
+  --color-canvas: #f4f6f8;
+  --color-ink: #17212f;
+  --color-muted: #526071;
+  --color-line: #c5ccd5;
+  --color-divider: #e1e6ec;
+  --color-control-border: #8a98a9;
+  --color-action: #184f9d;
+  --color-action-hover: #123c77;
+  --color-subtle-hover: #edf3fa;
+  --color-intro: #123551;
+  --color-intro-active: #1f4a6e;
+  --color-intro-ink: #d1dfeb;
+  --color-danger: #a52424;
+  --color-danger-bg: #fff0ef;
+  --color-success: #21633e;
+  --color-success-bg: #e9f5ee;
+  --color-warning: #805400;
+  --color-warning-bg: #fdf4e0;
+  --color-notice-bg: #f1f5fa;
+  --color-notice-ink: #34485e;
+  --font-interface: 'Segoe UI', system-ui, sans-serif;
+  --radius-control: 0.375rem;
+  --spacing-touch: 2.75rem;
+}

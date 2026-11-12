@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><title>Tablero por estado</title>
+<style>
+*{box-sizing:border-box}body{margin:0;width:1440px;height:900px;overflow:hidden;font:15px 'Segoe UI',system-ui,sans-serif;color:#17212f;background:#f4f6f8;display:grid;grid-template-columns:232px 1fr}
+.side{background:#123551;color:#d1dfeb;padding:20px 16px}.side b{color:#fff;font-size:22px;display:block;margin-bottom:28px}.side a{display:block;padding:11px 12px;border-radius:6px;margin-bottom:4px}.side a.on{background:#1f4a6e;color:#fff;font-weight:600}
+.main{display:grid;grid-template-rows:60px 88px 1fr;min-width:0}.top{background:#fff;border-bottom:1px solid #e1e6ec;display:flex;align-items:center;justify-content:space-between;padding:0 28px;font-size:18px;font-weight:650}.top span{font-size:14px;font-weight:400;color:#526071}
+.reg{background:#fff;border-bottom:1px solid #e1e6ec;display:flex;gap:12px;align-items:center;padding:0 28px}.input{flex:1;height:50px;border:1px solid #8a98a9;border-radius:6px;padding:14px;color:#647184}.btn{background:#184f9d;color:#fff;border-radius:6px;padding:14px 22px;font-weight:600}
+.board{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:24px 28px;min-height:0}.col h3{margin:0 0 12px;font-size:15px;display:flex;justify-content:space-between;border-bottom:2px solid #123551;padding-bottom:8px}.card{background:#fff;border:1px solid #e1e6ec;border-radius:6px;padding:14px;margin-bottom:10px}.card b{font-variant-numeric:tabular-nums;display:block;margin-bottom:6px}.card small{color:#526071}
+</style>
+<div class="side"><b>RadioMovil</b><a>Panel</a><a class="on">Solicitudes</a><a>Despacho</a><a>Cuenta</a></div>
+<div class="main"><div class="top">Solicitudes <span>Administrador · Central de ejemplo</span></div>
+<div class="reg"><div class="input">Origen: dirección o punto de recogida</div><div class="btn">Registrar solicitud</div></div>
+<div class="board">
+<div class="col"><h3>Pendiente <span>12</span></h3><div class="card"><b>128</b>Av. Principal y calle 5<br><small>14:32</small></div><div class="card"><b>127</b>Terminal de buses, puerta 2<br><small>14:30</small></div><div class="card"><b>121</b>Barrio San José, casa 14<br><small>14:05</small></div></div>
+<div class="col"><h3>Ofertada <span>3</span></h3><div class="card"><b>126</b>Hospital central, emergencias<br><small>14:27</small></div></div>
+<div class="col"><h3>Asignada <span>6</span></h3><div class="card"><b>125</b>Mercado norte, entrada este<br><small>14:24</small></div><div class="card"><b>122</b>Colegio Santa Ana<br><small>14:11</small></div></div>
+<div class="col"><h3>En viaje <span>9</span></h3><div class="card"><b>124</b>Plaza mayor, frente al banco<br><small>14:20</small></div><div class="card"><b>123</b>Calle Sucre 210<br><small>14:16</small></div></div>
+</div></div>

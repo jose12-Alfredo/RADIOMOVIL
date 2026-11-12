@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="frontend-web.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>

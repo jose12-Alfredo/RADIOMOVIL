@@ -1,0 +1,22 @@
+<!doctype html><meta charset="utf-8"><title>Consola de llamada</title>
+<style>
+*{box-sizing:border-box}body{margin:0;width:1440px;height:900px;overflow:hidden;font:15px 'Segoe UI',system-ui,sans-serif;color:#17212f;background:#f4f6f8;display:grid;grid-template-columns:232px 1fr}
+.side{background:#123551;color:#d1dfeb;padding:20px 16px}.side b{color:#fff;font-size:22px;display:block;margin-bottom:28px}.side a{display:block;padding:11px 12px;border-radius:6px;margin-bottom:4px}.side a.on{background:#1f4a6e;color:#fff;font-weight:600}
+.main{display:grid;grid-template-rows:60px 1fr}.top{background:#fff;border-bottom:1px solid #e1e6ec;display:flex;align-items:center;justify-content:space-between;padding:0 28px;font-size:18px;font-weight:650}.top span{font-size:14px;font-weight:400;color:#526071}
+.work{display:grid;grid-template-columns:360px 1fr;min-height:0}.reg{background:#fff;border-right:1px solid #e1e6ec;padding:28px}.reg h2{margin:0 0 20px;font-size:22px}label{display:block;font-size:14px;font-weight:600;margin-bottom:8px}.input{height:120px;border:1px solid #8a98a9;border-radius:6px;padding:12px;color:#647184;margin-bottom:16px}.btn{background:#184f9d;color:#fff;border-radius:6px;padding:14px;text-align:center;font-weight:600}.ok{margin-top:20px;background:#f1f5fa;border-radius:6px;padding:14px;font-size:14px;line-height:1.6}
+.queue{padding:24px 28px;min-width:0}.tabs{display:flex;gap:8px;margin-bottom:16px}.tabs span{padding:8px 14px;border:1px solid #c5ccd5;border-radius:6px;background:#fff;font-size:14px}.tabs .on{background:#123551;color:#fff;border-color:#123551}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e1e6ec}th{font-size:13px;text-align:left;color:#526071;padding:12px 16px;border-bottom:1px solid #e1e6ec}td{padding:14px 16px;border-bottom:1px solid #eef1f4}.n{font-variant-numeric:tabular-nums;font-weight:650}.new{background:#edf3fa}
+</style>
+<div class="side"><b>RadioMovil</b><a>Panel</a><a class="on">Solicitudes</a><a>Despacho</a><a>Cuenta</a></div>
+<div class="main"><div class="top">Solicitudes <span>Administrador · Central de ejemplo</span></div>
+<div class="work"><section class="reg"><h2>Nueva solicitud</h2><label>Origen</label><div class="input">Dirección o punto de recogida</div><div class="btn">Registrar solicitud</div><div class="ok"><b>Registrada · Orden 128</b><br>Lista para la siguiente llamada.</div></section>
+<section class="queue"><div class="tabs"><span class="on">Todas 42</span><span>Pendiente 12</span><span>Ofertada 3</span><span>Asignada 6</span><span>En viaje 9</span></div>
+<table><tr><th>Orden</th><th>Origen</th><th>Estado</th><th>Recibida</th></tr>
+<tr class="new"><td class="n">128</td><td>Av. Principal y calle 5</td><td>Pendiente</td><td class="n">14:32</td></tr>
+<tr><td class="n">127</td><td>Terminal de buses, puerta 2</td><td>Pendiente</td><td class="n">14:30</td></tr>
+<tr><td class="n">126</td><td>Hospital central, emergencias</td><td>Ofertada</td><td class="n">14:27</td></tr>
+<tr><td class="n">125</td><td>Mercado norte, entrada este</td><td>Asignada</td><td class="n">14:24</td></tr>
+<tr><td class="n">124</td><td>Plaza mayor, frente al banco</td><td>En viaje</td><td class="n">14:20</td></tr>
+<tr><td class="n">123</td><td>Barrio San José, casa 14</td><td>En viaje</td><td class="n">14:16</td></tr>
+<tr><td class="n">122</td><td>Colegio Santa Ana</td><td>Asignada</td><td class="n">14:11</td></tr>
+</table></section></div></div>

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "Neon": {
+      "type": "remote",
+      "url": "https://mcp.neon.tech/mcp?readonly=true&projectId=delicate-recipe-12748608",
+      "enabled": true
+    }
+  }
+}
